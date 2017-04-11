@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="DROP" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/DROP" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+		</Compiler>
+		<Unit filename="DATA/drop1.h" />
+		<Unit filename="DATA/drop2.h" />
+		<Unit filename="DATA/drop3.h" />
+		<Unit filename="Makefile" />
+		<Unit filename="README" />
+		<Unit filename="drop.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="drop.h" />
+		<Unit filename="drop.o" />
+		<Unit filename="drop.pdf" />
+		<Unit filename="drop2" />
+		<Unit filename="gruppo-check.pl" />
+		<Unit filename="gruppo.txt" />
+		<Unit filename="myrand.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="myrand.h" />
+		<Unit filename="myrand.o" />
+		<Unit filename="test_one.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="test_three.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="test_two.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="test_two.o" />
+		<Extensions>
+			<code_completion />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
